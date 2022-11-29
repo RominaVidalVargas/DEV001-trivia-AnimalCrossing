@@ -1,3 +1,61 @@
-/*
-  Aquí van los estilos
-*/
+h1{
+  color: #804000;
+  text-align: center;
+  font-size: 100px;
+  font-style: oblique}
+  h2{
+  color: #804000;
+  font-size: 50px;
+  text-align: center;
+  }
+  h3{
+  color: blue;
+  font-size: 30px;
+  margin-left: 80px;
+  }
+  h4{
+  color: #1157fb;
+  font-size: 25px;
+  margin-left: 100px;
+  }
+  img{
+  width: 600px; height: 300px;
+  display: block;
+  margin: 0px auto;
+  }
+  #space{
+    margin-bottom: 450px;}
+  
+  #trivia{
+    display: none;
+  }
+  #borrar{
+    display: block;
+    margin-bottom: 250px;
+  }
+  button{
+    
+    margin-left: 45%;
+    Color: #fec501;
+    font-family: italian;
+    font-size: 25px;
+    background-color: #804000;
+    border-radius: 45px;
+    padding: 35px;}
+  
+  input{
+    Color: #fec501;
+    font-family: italian;
+    font-size: 25px;
+    background-color: #804000;
+    border-radius: 45px;
+    padding: 35px;
+  }
+  
+  body{
+  background-image: url("https://images5.alphacoders.com/956/thumb-1920-956578.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+    }
+  }
+  

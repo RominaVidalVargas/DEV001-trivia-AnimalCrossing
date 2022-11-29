@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js"></script>
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia Animal Crossing</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Trivia de </h1>
+<img src="https://i.pinimg.com/originals/ce/27/9a/ce279ab211098756c2a9b339ced9ba67.png">
+<h2><dir>Te invito a conocer cuanto sabes del juego!</h2> 
+<button type="button" onclick="mostrarTrivia()" id="borrar"> Comenzar</button>
+<br><ol>
+<form id="trivia">
+<h3><li>Qué día "Juliana" vende Nabos frescos?</h3></li>
+<h4><input type="radio" class="incorrecta"  name="pregunta1"/> Miércoles<br>
+   <input type="radio" class="incorrecta" onclick="incorrecta()" name="pregunta1"/> Sábado<br>
+   <input type="radio" class="correcta" onclick="correcta()" name="pregunta1"/> Domingo<br></h4>
+   <br><h3><li>Nombre del famoso perro cantante que hace conciertos los sábados</h3></li>
+<h4><input type="radio" class="correcta" onclick="correcta()" name="pregunta2"/> TotaKeke<br>
+   <input type="radio" class="incorrecta"  name="pregunta2"/> Raimuncho<br>
+   <input type="radio" class="incorrecta"  name="pregunta2"/> TotaLola<br></h4>
+  <br> <h3><li>Como se llama el Hippi dueño de un salón fotográfico?</h3></li>
+<h4><input type="radio" class="incorrecta"  name="pregunta3"/> Floro<br>
+   <input type="radio" class="correcta"  name="pregunta3"/> Fauno<br>
+   <input type="radio" class="incorrecta" onclick="incorrecta()" name="pregunta3"/> Figaro<br></h4>
+   <br><h3><li>Nombre de los amigos amantede los peces e insectos personificados por un Castor y un Camaleón</h3></li>
+<h4><input type="radio" class="correcta" onclick="correcta()" name="pregunta4"/> Kamilo y CJ<br>
+   <input type="radio" class="incorrecta"  name="pregunta4"/> TomNook y Canela<br>
+   <input type="radio" class="incorrecta"  name="pregunta4"/> Tendo y Nendo<br></h4>
+   <br><h3><li>Nombre de la ultima version de Animal Crossing, estrenada para la consola Nintendo Switch</h3></li>
+<h4><input type="radio" class="incorrecta" name="pregunta5"/> Camp Rock<br>
+   <input type="radio" class="incorrecta"  name="pregunta5"/> Push-Push<br>
+   <input type="radio" class="correcta" onclick="correcta()" name="pregunta5" /> New Horizons<br></h4>
+
+<input type="reset" onclick="reinicio()" id="borrar" /><br>
+<button  onclick="corregir()" id=revisar> Revisar </button><br>
+
+</ol></form> 
+ 
+</body>
+ <script src="script.js"></script>
+
 </html>
